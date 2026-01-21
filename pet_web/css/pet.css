@@ -1,0 +1,248 @@
+
+
+/*--------------------------------------*/
+/* ペットページ*/
+/*--------------------------------------*/
+.inline-b
+{
+    display: inline-block;
+}
+
+
+
+.flex-container .textbox
+{
+    display: block;
+}
+
+.flex-container .item
+{
+    display: flex;
+    text-align: left;
+    justify-content:center;
+    width: 475px;
+    margin: 5px;
+}
+
+
+/*--------------------------------------*/
+/* 前置き*/
+/*--------------------------------------*/
+#message
+{
+    background-color: var(--background-c);
+    padding-top: 30px;
+}
+#message .mes-content
+{
+    width: auto;
+    margin: 0 auto 20px;
+    padding-bottom: 30px;
+
+}
+
+#message .mes-content img
+{
+    width: 350px;
+    height: auto;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+#message .mes-content div
+{
+    display: table;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    margin-top: 10px;
+  
+    & > p 
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align:left;
+        line-height: 40px;
+    }
+  
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------*/
+/* 習慣*/
+/*--------------------------------------*/
+#habit .div-content
+{
+    background-color: var(--background-c2);
+}
+#habit .hab-content
+{
+    margin: 20px auto;
+}
+
+/* サブタイトル*/
+#habit h3
+{
+    border-bottom: dashed 10px var(--accent-c);
+    width: 400px;
+    margin: 50px auto 10px;
+}
+
+/* 画像無*/
+#habit .hab-content .no-img p
+{
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 40px;
+}
+/* 画像有*/
+#habit .hab-content .with-img img
+{
+    width: 280px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#habit .hab-content .with-img div 
+{
+    display: table;
+    width: 480px;
+    height: 190px;
+    margin: 30px;
+    margin-top: 10px;
+  
+    & > p 
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align:left;
+        line-height: 40px;
+    }
+}
+
+
+
+
+
+
+/*--------------------------------------*/
+/* アイテム*/
+/*--------------------------------------*/
+#item .div-content
+{
+    background-color: var(--background-c);
+}
+
+
+/* リスト*/
+#item .list-box
+{
+    position: relative;
+    width: 260px;
+    height: 330px;
+    margin: 30px;
+}
+
+#item .text-area
+{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 240px;
+    height: 280px;
+    text-align: left;    
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px;
+
+    padding: 15px;
+    padding-top: 30px;
+}
+#item .text-area p
+{
+    padding-top: 15px;
+    line-height: 40px;
+}
+
+
+#item .list-box img
+{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    width: 80px;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------*/
+/* ワクチンなど*/
+/*--------------------------------------*/
+#medical .div-content
+{
+    background-color: var(--background-c2);
+}
+
+#medical .med-content
+{
+    margin: 20px auto;
+}
+
+/* サブタイトル*/
+#medical h3
+{
+    border-bottom: dashed 10px var(--accent-c);
+    width: 400px;
+    margin: 20px auto;
+}
+
+/* 画像無*/
+#medical .med-content .no-img p
+{
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* 画像有*/
+#medical .med-content .with-img img
+{
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#medical .med-content .with-img div 
+{
+    display: table;
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+    margin-top: 10px;
+  
+    & > p 
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align:left;
+        line-height: 40px;
+    }
+}
+
+

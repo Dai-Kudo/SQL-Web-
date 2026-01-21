@@ -1,0 +1,99 @@
+
+:root
+{
+    text-align: center;
+    --main-c:rgb(245, 227, 87);
+    --accent-c:rgb(191, 235, 114);
+
+    --background-c:rgb(255, 242, 223);
+    --background-c2:rgb(255, 255, 219);
+
+    --font-c:rgb(90, 57, 0);
+    color: var(--font-c);
+}
+
+/* 上部の空白を消す */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    min-width: 1100px;
+    margin:0 auto;
+    background-color: #fff;
+}
+
+main
+{
+    height: 100%;
+    width: 100%;
+}
+
+.content
+{
+    width: 1000px;
+    margin:0 auto;
+}
+
+/* ヘッダー */
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: var(--main-c);
+}
+header a
+{
+    text-decoration: none;
+    color: var(--font-c);
+}
+header h1
+{
+    text-align: center;
+    font-size: 40px;
+    padding:20px 0;
+}
+
+/* フッター */
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-c)
+}
+
+img.t-img
+{
+    width: 750px;
+    height: 462px;
+}
+h2
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* コンテンツごと*/
+.div-box
+{
+    margin:40px auto 0;
+}
+.div-content
+{
+    padding:50px 0 50px;
+}
+
+/* 横並び*/
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content:center;
+}
+

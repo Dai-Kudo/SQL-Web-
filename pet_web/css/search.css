@@ -1,0 +1,85 @@
+
+/*--------------------------------------*/
+/*検索画面*/
+/*--------------------------------------*/
+main
+{
+    min-height: 1000px;
+    margin-bottom: 10px;
+}
+
+#not-found
+{
+    position:absolute;
+    top: 0;
+    left: z0;
+}
+
+#searchBox
+{
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    width:200px;
+    height: 500px;
+    background-color: rgb(243, 245, 208);
+    border: solid 1px var(--font-c);
+}
+
+#searchBox #type-box
+{
+    width: 170px;
+    margin: 20px 0 20px 10px;
+    padding-bottom: 10px;
+    border-bottom: dashed 4px var(--accent-c);
+}
+
+#searchBox #s-text
+{
+    margin: 20px 0 20px;
+}
+#searchBox #s-text h4
+{
+    margin-bottom: 5px;
+}
+#searchBox #button-box
+{
+    margin: 20px 0 20px;
+}
+
+
+
+
+
+/*リストボックスのレイアウト*/
+
+.list .list-box 
+{
+    width: 340px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid var(--main-c);
+    border-radius: 10px;
+    background-color: var(--accent-c);
+}
+
+.list .list-box img
+{
+    width: 100%;
+}
+.list .list-box h3
+{
+    border: none;
+    height: 30px;
+    padding: auto 0;
+    margin: 0;
+}
+
+.list .hidden
+{
+    position:absolute;
+    opacity: 0;
+    pointer-events: none;
+}
